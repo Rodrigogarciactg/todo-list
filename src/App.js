@@ -51,6 +51,7 @@ function App() {
           handleNewTodoSubmit(event);
         }}
       >
+        <h1>Todo List</h1>
         <input
           onChange={(event) => {
             setNewTodo(event.target.value);
